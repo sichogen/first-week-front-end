@@ -8,14 +8,13 @@
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(/images/key1.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .navbar {
     width: 1350px;
     height: 75px;
     margin: auto;
-    border-bottom: 4px double tomato;
 }
 
 .icon {
@@ -53,7 +52,6 @@
 
 .menu li {
     list-style: none;
-   
     margin-left: 62px;
     margin-top: 27px;
     font-size: 18px;
@@ -176,8 +174,6 @@
     padding: 25px;
 }
 
-@media
-
 .form h2{
     width: 200px;
     height: 40px;
@@ -274,14 +270,3 @@
     color: tomato;
 }
 
-@media(max-width : 950px){
-    .myform{
-        width: 70%;
-    }
-}
-
-@media(max-width : 650px){
-    .myform{
-        width: 90%;
-    }
-}
